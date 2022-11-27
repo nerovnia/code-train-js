@@ -1,4 +1,7 @@
-// return masked string
+/*
+  Return masked string
+*/
+
 function maskify(cc) {
   return cc.substring(cc.length-4).padStart(cc.length, '#');
 }
